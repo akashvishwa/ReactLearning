@@ -1,0 +1,18 @@
+.main{
+    display: block;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    padding: 10px;
+}
+
+.layout-con{
+    background-color: rgb(124, 124, 124);
+    text-align: center;
+}
+
+.linksection{
+    display: grid;
+    gap:20px;
+}

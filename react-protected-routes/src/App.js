@@ -1,9 +1,18 @@
+import React,{ useContext } from 'react';
 import './App.css';
+import { UserContext } from './contexts/Contexts';
+import { Login } from './components/Login';
+
 
 function App() {
+  const {user,setUser}=useContext(UserContext);
+  
+  const updateUser=()=>{
+    setUser({id:2,name:'django',role:'manager'});
+  }
   return (
     <div className="App">
-      hello react
+      <Login/>
     </div>
   );
 }
